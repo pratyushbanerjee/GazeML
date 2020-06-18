@@ -7,9 +7,9 @@ import numpy as np
 import tensorflow as tf
 import ujson
 
-from core import BaseDataSource
-import util.gaze
-import util.heatmap
+from GazeML.src.core import BaseDataSource
+import GazeML.src.util.gaze
+import GazeML.src.util.heatmap
 
 
 class UnityEyes(BaseDataSource):

@@ -5,9 +5,9 @@ import numpy as np
 import scipy
 import tensorflow as tf
 
-from core import BaseDataSource, BaseModel
-from datasources import UnityEyes
-import util.gaze
+from GazeML.src.core import BaseDataSource, BaseModel
+from GazeML.src.datasources import UnityEyes
+import GazeML.src.util.gaze
 
 
 class DPG(BaseModel):

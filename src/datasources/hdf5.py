@@ -7,8 +7,8 @@ import h5py
 import numpy as np
 import tensorflow as tf
 
-from core import BaseDataSource
-import util.gazemap
+from GazeML.src.core import BaseDataSource
+import GazeML.src.util.gazemap
 
 
 class HDF5Source(BaseDataSource):

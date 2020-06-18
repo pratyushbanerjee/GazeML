@@ -13,7 +13,7 @@ import cv2 as cv
 import numpy as np
 import tensorflow as tf
 
-from core import BaseDataSource
+from GazeML.src.core import BaseDataSource
 
 
 class FramesSource(BaseDataSource):

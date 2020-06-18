@@ -5,7 +5,7 @@ import numpy as np
 import scipy
 import tensorflow as tf
 
-from core import BaseDataSource, BaseModel
+from GazeML.src.core import BaseDataSource, BaseModel
 
 
 def _tf_mse(x, y):

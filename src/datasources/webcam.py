@@ -12,10 +12,10 @@ class Webcam(FramesSource):
         self._short_name = 'Webcam'
 
         self._capture = cv.VideoCapture(camera_id)
-        self._capture.set(cv.CAP_PROP_FRAME_WIDTH, 1280)
-        self._capture.set(cv.CAP_PROP_FRAME_HEIGHT, 720)
-        self._capture.set(cv.CAP_PROP_FOURCC, cv.VideoWriter_fourcc(*'MJPG'))
-        self._capture.set(cv.CAP_PROP_FPS, fps)
+        # self._capture.set(cv.CAP_PROP_FRAME_WIDTH, 1280)
+        # self._capture.set(cv.CAP_PROP_FRAME_HEIGHT, 720)
+        # self._capture.set(cv.CAP_PROP_FOURCC, cv.VideoWriter_fourcc(*'MJPG'))
+        # self._capture.set(cv.CAP_PROP_FPS, fps)
 
         # Call parent class constructor
         super().__init__(**kwargs)
