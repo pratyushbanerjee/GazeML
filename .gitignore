@@ -2,10 +2,10 @@
 datasets/*
 
 # Outputs folder
-outputs/
+# outputs/
 
 # 3rd party files
-src/3rdparty
+# src/3rdparty
 
 # Temporary files
 *.pyc
